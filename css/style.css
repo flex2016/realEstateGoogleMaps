@@ -1,21 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+
 html,
 body {
   font-family: Arial, sans-serif;
   height: 100%;
   margin: 0;
   padding: 0;
+  font-size: 62.5%;
 }
 .container {
   height: 100%;
   position: relative;
 }
 input {
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 h1 {
   color: #525454;
-  font-size: 22px;
-  margin: 0 0 10px 0;
+  font-size: 1.8rem;
+  margin: 0 0 1rem 0;
   text-align: center;
 }
 #hide-listings,
@@ -25,45 +34,54 @@ h1 {
 hr {
   background: #D0D7D9;
   height: 1px;
-  margin: 20px 0 20px 0;
+  margin: 2rem 0 2rem 0;
   border: none;
 }
 #map {
   bottom:0px;
   height: 100%;
-  left: 362px;
+  left: 0px;
   position: absolute;
   right: 0px;
+  z-index: -1;
 }
 .options-box {
   background: #fff;
   border: 1px solid #999;
   border-radius: 3px;
-  height: 100%;
-  line-height: 35px;
-  padding: 10px 10px 30px 10px;
+  height: 55%;
+  line-height: 3.5rem;
+  padding: 1rem 1rem 3rem 1rem;
   text-align: left;
-  width: 340px;
+  width: 34rem;
 }
 #pano {
-  width: 200px;
-  height: 200px;
+  width: 20rem;
+  height: 20rem;
 }
 #places-search,
 #search-within-time-text {
   width: 84%;
 }
 .text {
-  font-size: 12px;
+  font-size: 1.2rem;
 }
 #toggle-drawing {
   width: 27%;
   position: relative;
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 #zoom-to-area-text {
   width: 70%;
 }
 #zoom-to-area {
   width: 24%;
+}
+
+/* Media Queries */
+@media(max-width: 1440px){
+  .options-box {
+    height: 40%;
+  }
+
 }
