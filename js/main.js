@@ -110,7 +110,7 @@ function initMap() {
     drawingMode: google.maps.drawing.OverlayType.POLYGON,
     drawingControl: true,
     drawingControlOptions: {
-      position: google.maps.ControlPosition.TOP_LEFT,
+      position: google.maps.ControlPosition.TOP_CENTER,
       drawingModes: [
         google.maps.drawing.OverlayType.POLYGON
       ]
