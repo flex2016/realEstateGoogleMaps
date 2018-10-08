@@ -82,7 +82,7 @@ hr {
 /* Media Queries */
 @media(max-width: 1400px){
   .options-box {
-    height: 40%;
+    height: 35rem;
   }
   hr {
     margin: .5rem 0 .5rem 0;
